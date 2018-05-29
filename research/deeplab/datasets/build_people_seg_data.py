@@ -88,7 +88,7 @@ def _convert_dataset(dataset_split):
 
 def main(unused_argv):
   # Only support converting 'train', 'test' sets for now.
-  for dataset_split in ['val']:
+  for dataset_split in ['train','val']:
     _convert_dataset(dataset_split)
 
 
